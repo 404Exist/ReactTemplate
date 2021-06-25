@@ -14,22 +14,22 @@ const Navbar = () => {
                     </div>
                     <ul className="list">
                         <List className="list-item">
-                            <NavLink exact to="/">Home</NavLink>
+                            <NavLink exact to="/ReactTemplate/">Home</NavLink>
                         </List>
                         <List className="list-item">
-                            <Link exact to="/">Work</Link>
+                            <Link exact to="/ReactTemplate/">Work</Link>
                         </List>
                         <List className="list-item">
-                            <Link exact to="/">Portflio</Link>
+                            <Link exact to="/ReactTemplate/">Portflio</Link>
                         </List>
                         <List className="list-item">
-                            <Link exact to="/">Resume</Link>
+                            <Link exact to="/ReactTemplate/">Resume</Link>
                         </List>
                         <List className="list-item">
-                            <Link exact to="/">About</Link>
+                            <Link exact to="/ReactTemplate/">About</Link>
                         </List>
                         <List className="list-item">
-                            <NavLink to="/contact">Contact</NavLink>
+                            <NavLink to="ReactTemplate/contact">Contact</NavLink>
                         </List>
                     </ul>
                 </NavFlex>
