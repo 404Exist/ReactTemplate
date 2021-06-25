@@ -29,7 +29,7 @@ const Navbar = () => {
                             <Link exact to="/ReactTemplate/">About</Link>
                         </List>
                         <List className="list-item">
-                            <NavLink to="/contact">Contact</NavLink>
+                            <NavLink to="/ReactTemplate/contact">Contact</NavLink>
                         </List>
                     </ul>
                 </NavFlex>
