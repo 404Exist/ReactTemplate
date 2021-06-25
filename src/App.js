@@ -12,9 +12,9 @@ class App extends Component {
       <BrowserRouter>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={Index}/>
-          <Route path="/contact" component={Contact}/>
-          <Redirect to="/" />
+          <Route path="/ReactTemplate" component={Index}/>
+          <Route path="/ReactTemplate/contact" component={Contact}/>
+          <Redirect to="/ReactTemplate" />
         </Switch>
         <Footer />
       </BrowserRouter>
