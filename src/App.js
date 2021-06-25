@@ -13,7 +13,7 @@ class App extends Component {
         <Navbar />
         <Switch>
           <Route path="/ReactTemplate" component={Index}/>
-          <Route path="/ReactTemplate/contact" component={Contact}/>
+          <Route path="/ReactTemplate/contacts" component={Contact}/>
           <Redirect to="/ReactTemplate" />
         </Switch>
         <Footer />
